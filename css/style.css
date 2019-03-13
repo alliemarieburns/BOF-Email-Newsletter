@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+}
+td,
+p {
+  font-size: 13px;
+  color: #878787;
+}
+ul {
+  margin: 0 0 10px 35px;
+  padding: 0;
+}
+li {
+  margin: 0 0 3px 0;
+}
+h1, h2 {
+  color: black;
+}
+
+h1 {
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+h2 {
+  font-size: 20px;
+}
+a {
+  color: #27aee3;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.entire-page {
+  /* background created with
+  https://cssgradient.io/ */
+
+  background: rgb(91, 59, 88);
+  background: -moz-linear-gradient(
+    129deg,
+    rgba(91, 59, 88, 1) 0%,
+    rgba(133, 80, 125, 1) 35%,
+    rgba(245, 159, 145, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    129deg,
+    rgba(91, 59, 88, 1) 0%,
+    rgba(133, 80, 125, 1) 35%,
+    rgba(245, 159, 145, 1) 100%
+  );
+  background: linear-gradient(
+    129deg,
+    rgba(91, 59, 88, 1) 0%,
+    rgba(133, 80, 125, 1) 35%,
+    rgba(245, 159, 145, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(
+      startColorstr="#5b3b58",
+      endColorstr="#f59f91",
+      GradientType=1
+    );
+
+  width: 100%;
+  padding: 20px 0;
+  font-family: "Tahoma", "Lucida Sans Unicode", Verdana, sans-serif;
+  line-height: 1.5;
+}
+.email-body {
+  max-width: 600px;
+  min-width: 320px;
+  margin: 0 auto;
+  background: white;
+  border-collapse: collapse;
+}
+.email-body img {
+  max-width: 100%;
+}
+.email-heading {
+  background: black;
+  padding: 30px;
+}
+.news-section {
+  padding: 20px 30px;
+}
+.footer {
+  background: #eee;
+  padding: 10px;
+  font-size: 10px;
+  text-align: center;
+}
+
+#album-art {
+  max-width: 70%;
+}
+
+.social-icon {
+  color: #878787;
+  font-size: 45px;
+  padding: 10px;
+}
